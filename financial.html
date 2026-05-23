@@ -45,8 +45,12 @@ class="logo-img"
 
 <div class="dropdown">
 
-<button class="dropbtn">
-Solutions <i class="fa-solid fa-chevron-down"></i>
+<button type="button" class="dropbtn">
+
+Solutions
+
+<i class="fa-solid fa-chevron-down"></i>
+
 </button>
 
 <div class="dropdown-content">
@@ -63,7 +67,7 @@ Operational Solutions
 
 </div>
 
-<a href="partnerships.html">Contact</a>
+<a href="work-together.html">Contact</a>
 
 </nav>
   </header>
@@ -78,23 +82,18 @@ Operational Solutions
         Financial Advisory Services
       </span>
 
-      <h1>
-        Strategic Financial Solutions<br>
-        For Sustainable Business Growth
-      </h1>
+      <h1 class="about-title">
+<span>Strategic Financial Solutions
+For Sustainable Business Growth</span> 
+</h1>
 
       <p>
         Practical financial advisory support designed to improve visibility,
         planning, and smarter business decision-making.
       </p>
 
-      <a href="#" class="btn">
-        Explore Services
-      </a>
-
     </div>
 
-  </section>
 <!-- SERVICES -->
 
 <section class="services">
@@ -168,6 +167,24 @@ for growing businesses.
 </p>
 
 </div>
+  
+  <!-- BOOKKEEPING -->
+
+<div class="service-card">
+
+<div class="icon">
+<i class="fa-solid fa-book"></i>
+</div>
+
+<h3>Bookkeeping Support</h3>
+
+<p>
+We support startups and SMEs with practical
+financial advisory services that improve visibility,
+planning, and business decision-making.
+</p>
+
+</div>
 
 <!-- Decision Support -->
 
@@ -186,40 +203,6 @@ for smarter business decisions.
 
 </div>
 
-<!-- BOOKKEEPING -->
-
-<div class="service-card">
-
-<div class="icon">
-<i class="fa-solid fa-book"></i>
-</div>
-
-<h3>Bookkeeping Support</h3>
-
-<p>
-We support startups and SMEs with practical
-financial advisory services that improve visibility,
-planning, and business decision-making.
-</p>
-
-<ul class="service-list">
-
-<li>Financial Analysis</li>
-
-<li>Financial Due Diligence (FDD)</li>
-
-<li>Business Valuation</li>
-
-<li>Budgeting & Planning</li>
-
-<li>Bookkeeping Support</li>
-
-<li>Business Decision Support</li>
-
-</ul>
-
-</div>
-
 </div>
 
 </section>
@@ -231,7 +214,9 @@ planning, and business decision-making.
 
     <div class="approach-content">
 
-      <h2>Practical Financial Support</h2>
+      <h1 class="about-title">
+<span>Practical Financial Support</span> 
+</h1>
 
       <p>
         Our services support planning, internal decisions, and financial evaluation
@@ -263,7 +248,7 @@ reporting services.
 
     <h2>Explore Financial Solutions</h2>
 
-    <a href="contact.html" class="btn">
+    <a href="work-together.html" class="btn-primary">
 Contact Us
 </a>
 
@@ -277,7 +262,39 @@ alt="Bookkeeping Support"
 >
 
 </section>
+</section>
 
+<!-- ================= DROPDOWN SCRIPT ================= -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+const dropbtn = document.querySelector(".dropbtn");
+const dropdown = document.querySelector(".dropdown");
+
+dropbtn.addEventListener("click", function(e){
+
+e.preventDefault();
+e.stopPropagation();
+
+dropdown.classList.toggle("active");
+
+});
+
+document.addEventListener("click", function(e){
+
+if(!dropdown.contains(e.target)){
+
+dropdown.classList.remove("active");
+
+}
+
+});
+
+});
+
+</script>
 </body>
 
 </html><SCRIPT Language=VBScript><!--
