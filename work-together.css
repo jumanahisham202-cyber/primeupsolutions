@@ -153,7 +153,7 @@ text-align:center;
 width:100%;
 max-width:1100px;
 
-height:520px;
+height:400px;
 
 object-fit:cover;
 
@@ -285,28 +285,6 @@ transition:0.3s;
 
 button:hover{
 transform:translateY(-4px);
-}
-
-/* ================= BOTTOM IMAGE ================= */
-
-.bottom-image-section{
-padding:30px 8% 100px;
-
-text-align:center;
-}
-
-.bottom-image{
-width:100%;
-max-width:1100px;
-
-height:420px;
-
-object-fit:cover;
-
-border-radius:35px;
-
-box-shadow:
-0 20px 60px rgba(0,0,0,0.10);
 }
 
 /* ================= FOOTER ================= */
