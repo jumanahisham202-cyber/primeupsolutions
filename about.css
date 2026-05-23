@@ -134,7 +134,7 @@ width:100%;
 
 max-width:950px;
 
-height:500px;
+height:400px;
 
 object-fit:cover;
 
@@ -605,7 +605,7 @@ display:inline-block;
 letter-spacing:-1px;
 }
 
-/* «·Œÿ «··Ì  Õ  «·⁄‰Ê«‰ */
+/* √á√°√é√ò √á√°√°√≠ √ä√ç√ä √á√°√ö√§√¶√á√§ */
 
 .section-title h2::after{
 content:"";
@@ -670,7 +670,7 @@ text-shadow:
 position:relative;
 }
 
-/* «·Œÿ «·‘Ìﬂ  Õ  «·⁄‰Ê«‰ */
+/* √á√°√é√ò √á√°√î√≠√ü √ä√ç√ä √á√°√ö√§√¶√á√§ */
 
 .about-title::after{
 
@@ -698,7 +698,7 @@ box-shadow:
 0 0 20px rgba(31,110,212,0.3);
 }
 
-/* „Ê»«Ì· */
+/* √£√¶√à√á√≠√° */
 
 @media(max-width:768px){
 
