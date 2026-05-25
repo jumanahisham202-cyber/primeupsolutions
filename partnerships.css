@@ -474,3 +474,12 @@ color:#1f6ed4;
 .nav-links a:hover{
 color:#1f6ed4;
 }
+/* ACTIVE PAGE */
+
+.nav-links a.active{
+color:#1f6ed4;
+}
+
+.nav-links a:hover{
+color:#1f6ed4;
+}
