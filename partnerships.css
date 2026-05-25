@@ -465,3 +465,12 @@ justify-content:center;
 
 text-align:center;
 }
+/* ACTIVE PAGE */
+
+.nav-links a.active{
+color:#1f6ed4;
+}
+
+.nav-links a:hover{
+color:#1f6ed4;
+}
