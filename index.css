@@ -720,3 +720,12 @@ height:85px;
 font-size:32px;
 margin-bottom:25px;
 }
+.contact-row a{
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+.contact-row a:hover{
+opacity:0.8;
+}
