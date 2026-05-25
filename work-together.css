@@ -577,3 +577,12 @@ background:#eef4fa;
 .dropdown:hover .dropdown-content{
 display:block;
 }
+/* ACTIVE PAGE */
+
+.nav-links a.active{
+color:#1f6ed4;
+}
+
+.nav-links a:hover{
+color:#1f6ed4;
+}
