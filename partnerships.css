@@ -637,4 +637,30 @@ font-size:32px;
 }
 
 }
-```
+
+```css id="2x9u4v"
+.partnerships-hero .hero-content h1{
+font-family:'Poppins',sans-serif !important;
+
+font-size:64px !important;
+
+font-weight:800 !important;
+
+line-height:1.2 !important;
+
+letter-spacing:-1px !important;
+
+color:white !important;
+}
+
+.partnerships-hero .hero-content p{
+font-family:'Poppins',sans-serif !important;
+
+font-size:20px !important;
+
+font-weight:400 !important;
+
+line-height:2 !important;
+
+color:#dce6f5 !important;
+}
