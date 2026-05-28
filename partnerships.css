@@ -10,6 +10,10 @@ body{
   color:#0b1f3a;
 }
 
+/* =========================
+NAVBAR
+========================= */
+
 .navbar{
 position:sticky;
 top:0;
@@ -483,59 +487,4 @@ color:#1f6ed4;
 
 .nav-links a:hover{
 color:#1f6ed4;
-}
-footer{
-position:relative !important;
-
-left:50% !important;
-
-transform:translateX(-50%) !important;
-
-width:100% !important;
-
-text-align:center !important;
-
-display:block !important;
-
-background:transparent !important;
-}
-
-footer p{
-text-align:center !important;
-
-margin:0 auto !important;
-
-width:100% !important;
-
-color:white !important;
-}
-html,body{
-overflow-x:hidden;
-}
-
-body{
-margin:0;
-padding:0;
-}
-
-footer{
-width:100vw;
-margin-left:calc(50% - 50vw);
-
-padding:25px 0;
-
-text-align:center;
-
-background:transparent !important;
-}
-
-footer p{
-margin:0;
-
-text-align:center;
-
-color:white;
-
-font-size:14px;
-font-weight:500;
 }
