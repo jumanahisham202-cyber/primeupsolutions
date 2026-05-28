@@ -483,3 +483,21 @@ color:#1f6ed4;
 .nav-links a:hover{
 color:#1f6ed4;
 }
+/* ================= FOOTER ================= */
+
+.footer{
+background:#0b1f3a;
+
+padding:22px 20px;
+
+text-align:center;
+}
+
+.footer p{
+color:#d6d6d6;
+
+font-size:14px;
+font-weight:500;
+
+letter-spacing:0.5px;
+}
