@@ -721,6 +721,10 @@ background:#0b1f3a;
 
 padding:22px 20px;
 
+display:flex;
+justify-content:center;
+align-items:center;
+
 text-align:center;
 }
 
@@ -730,5 +734,5 @@ color:#d6d6d6;
 font-size:14px;
 font-weight:500;
 
-letter-spacing:0.5px;
+margin:0;
 }
