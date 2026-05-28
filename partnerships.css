@@ -679,4 +679,16 @@ color:white;
 
 margin-bottom:24px;
 }
+
+```css id="h8x4tm"
+.hero-content h1{
+
+color:white !important;
+
+font-size:72px !important;
+
+font-weight:700 !important;
+
+line-height:1.1 !important;
+}
 ```
