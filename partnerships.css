@@ -487,20 +487,3 @@ color:#1f6ed4;
 .nav-links a:hover{
 color:#1f6ed4;
 }
-/* ================= FOOTER ================= */
-
-footer.footer{
-background:transparent !important;
-
-box-shadow:none !important;
-
-border:none !important;
-}
-
-footer.footer .footer-content{
-background:transparent !important;
-}
-
-footer.footer p{
-color:white;
-}
