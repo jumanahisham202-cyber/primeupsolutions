@@ -18,6 +18,7 @@ background:#ffffff;
 color:#0b1f3a;
 overflow-x:hidden;
 line-height:1.7;
+padding-top:90px;
 }
 
 /* =========================
@@ -25,7 +26,7 @@ NAVBAR
 ========================= */
 
 header{
-background:white;
+background:#ffffff;
 position:fixed;
 top:0;
 left:0;
@@ -83,10 +84,14 @@ position:relative;
 .dropbtn{
 background:none;
 border:none;
+
 font-size:15px;
 font-weight:700;
+
 cursor:pointer;
+
 color:#0b1f3a;
+
 font-family:'Poppins',sans-serif;
 
 display:flex;
@@ -145,7 +150,7 @@ HERO
 
 width:100%;
 
-min-height:520px;
+min-height:500px;
 
 background:linear-gradient(
 135deg,
@@ -154,13 +159,12 @@ background:linear-gradient(
 );
 
 display:flex;
-
 justify-content:center;
 align-items:center;
 
 text-align:center;
 
-padding:150px 20px 90px;
+padding:120px 20px 90px;
 
 position:relative;
 
@@ -205,7 +209,6 @@ top:-100px;
 
 .hero-content{
 max-width:900px;
-
 position:relative;
 z-index:2;
 }
@@ -214,11 +217,11 @@ z-index:2;
 
 font-size:72px;
 
-font-weight:700;
+font-weight:800;
 
 line-height:1.1;
 
-color:white;
+color:#ffffff;
 
 margin-bottom:24px;
 }
@@ -593,7 +596,7 @@ gap:18px;
 
 .partnerships-hero{
 min-height:420px;
-padding:120px 20px 70px;
+padding:100px 20px 70px;
 }
 
 .hero-content h1{
@@ -624,7 +627,6 @@ padding:35px 25px;
 .bubble{
 width:150px;
 height:150px;
-
 font-size:14px;
 }
 
