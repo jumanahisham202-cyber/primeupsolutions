@@ -723,29 +723,28 @@ margin-bottom:25px;
 /* ================= FOOTER ================= */
 
 .footer{
-width:100vw;
-
-margin:0;
-padding:22px 0;
-
 background:#0b1f3a;
+
+padding:22px 20px;
+
+text-align:center;
 
 display:flex;
 justify-content:center;
 align-items:center;
 
-text-align:center;
+width:100%;
 }
 
 .footer p{
-width:100%;
-
-margin:0;
-
-text-align:center;
+margin:0 auto;
 
 color:#d6d6d6;
 
 font-size:14px;
 font-weight:500;
+
+width:100%;
+
+text-align:center;
 }
