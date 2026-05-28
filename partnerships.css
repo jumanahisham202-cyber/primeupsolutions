@@ -1,3 +1,4 @@
+```css
 /* =========================
 GLOBAL
 ========================= */
@@ -26,73 +27,45 @@ NAVBAR
 
 header{
 background:white;
-
 position:fixed;
 top:0;
-
-z-index:9999;
-
+left:0;
 width:100%;
-
+z-index:9999;
 border-bottom:1px solid #e6eaf0;
 }
 
 .container{
 width:90%;
-
 margin:auto;
 
 display:flex;
-
 justify-content:space-between;
-
 align-items:center;
 
 padding:15px 0;
-
-flex-wrap:nowrap;
 }
 
 .logo-img{
 width:200px;
-
 height:auto;
-
 display:block;
-
-object-fit:contain;
-
-flex-shrink:0;
 }
 
 /* NAV */
 
 nav{
 display:flex;
-
 align-items:center;
-
-justify-content:flex-end;
-
 gap:30px;
-
-flex:1;
-
-margin-left:60px;
 }
 
 nav a{
 text-decoration:none;
-
 color:#0b1f3a;
-
 font-size:15px;
-
 font-weight:700;
-
 transition:.3s;
-
-white-space:nowrap;
 }
 
 nav a:hover,
@@ -111,15 +84,10 @@ position:relative;
 .dropbtn{
 background:none;
 border:none;
-
 font-size:15px;
-
 font-weight:700;
-
 cursor:pointer;
-
 color:#0b1f3a;
-
 font-family:'Poppins',sans-serif;
 
 display:flex;
@@ -131,7 +99,6 @@ gap:8px;
 display:none;
 
 position:absolute;
-
 top:42px;
 left:0;
 
@@ -168,11 +135,12 @@ transition:.3s;
 
 .dropdown-content a:hover{
 background:#eef4fa;
-
 color:#1f6ed4;
 }
 
-/* ================= HERO ================= */
+/* =========================
+HERO
+========================= */
 
 .partnerships-hero{
 
@@ -189,12 +157,11 @@ background:linear-gradient(
 display:flex;
 
 justify-content:center;
-
 align-items:center;
 
 text-align:center;
 
-padding:120px 20px 80px;
+padding:140px 20px 90px;
 
 position:relative;
 
@@ -235,13 +202,12 @@ right:-100px;
 top:-100px;
 }
 
-/* CONTENT */
+/* HERO CONTENT */
 
 .hero-content{
 max-width:900px;
 
 position:relative;
-
 z-index:2;
 }
 
@@ -271,46 +237,19 @@ max-width:850px;
 margin:auto;
 }
 
-/* MOBILE */
-
-@media(max-width:768px){
-
-.partnerships-hero{
-
-min-height:420px;
-
-padding:100px 20px 60px;
-}
-
-.hero-content h1{
-font-size:42px;
-}
-
-.hero-content p{
-font-size:16px;
-
-line-height:1.8;
-}
-
-}
-
 /* =========================
 SECTIONS
 ========================= */
 
 section{
 padding:90px 8%;
-
 text-align:center;
 }
 
 .section-title h2{
 font-size:42px;
-
 font-weight:800;
-
 margin-bottom:45px;
-
 color:#0b1f3a;
 }
 
@@ -320,11 +259,9 @@ INTRO
 
 .intro-section p{
 max-width:900px;
-
 margin:auto;
 
 font-size:20px;
-
 line-height:2;
 
 color:#5f7185;
@@ -365,11 +302,9 @@ text-decoration:none;
 color:#0b1f3a;
 
 display:flex;
-
 flex-direction:column;
 
 align-items:center;
-
 justify-content:center;
 
 text-align:center;
@@ -419,8 +354,7 @@ margin-bottom:22px;
 
 font-size:28px;
 
-box-shadow:
-0 8px 22px rgba(0,0,0,0.05);
+box-shadow:0 8px 22px rgba(0,0,0,0.05);
 }
 
 /* =========================
@@ -431,7 +365,6 @@ BUBBLES
 display:flex;
 
 justify-content:center;
-
 align-items:center;
 
 gap:30px;
@@ -580,7 +513,6 @@ CONTACT ICONS
 display:flex;
 
 justify-content:center;
-
 align-items:center;
 
 gap:16px;
@@ -651,28 +583,27 @@ MOBILE
 
 .container{
 flex-direction:column;
-
 gap:20px;
 }
 
 nav{
 flex-wrap:wrap;
-
 justify-content:center;
-
 gap:18px;
 }
 
-.page-hero{
-padding:90px 20px;
+.partnerships-hero{
+min-height:420px;
+padding:120px 20px 70px;
 }
 
-.page-hero h1{
-font-size:38px;
+.hero-content h1{
+font-size:42px;
 }
 
-.page-hero p{
+.hero-content p{
 font-size:16px;
+line-height:1.8;
 }
 
 .section-title h2{
@@ -703,6 +634,4 @@ font-size:32px;
 }
 
 }
-nav a.active{
-color:#1f6ed4;
-}
+```
