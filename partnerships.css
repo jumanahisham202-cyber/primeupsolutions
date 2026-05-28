@@ -512,3 +512,33 @@ width:100% !important;
 
 color:white !important;
 }
+html,body{
+overflow-x:hidden;
+}
+
+body{
+margin:0;
+padding:0;
+}
+
+footer{
+width:100vw;
+margin-left:calc(50% - 50vw);
+
+padding:25px 0;
+
+text-align:center;
+
+background:transparent !important;
+}
+
+footer p{
+margin:0;
+
+text-align:center;
+
+color:white;
+
+font-size:14px;
+font-weight:500;
+}
