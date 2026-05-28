@@ -211,17 +211,20 @@ position:relative;
 z-index:2;
 }
 
+ id="8np4jl"
 .hero-content h1{
 
-color:white;
-
-font-size:72px;
+font-size:64px;
 
 font-weight:800;
 
-margin-bottom:22px;
+line-height:1.2;
 
-line-height:1.1;
+letter-spacing:-1px;
+
+color:white;
+
+margin-bottom:24px;
 }
 
 .hero-content p{
