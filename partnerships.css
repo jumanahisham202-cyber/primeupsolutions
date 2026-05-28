@@ -487,3 +487,28 @@ color:#1f6ed4;
 .nav-links a:hover{
 color:#1f6ed4;
 }
+footer{
+position:relative !important;
+
+left:50% !important;
+
+transform:translateX(-50%) !important;
+
+width:100% !important;
+
+text-align:center !important;
+
+display:block !important;
+
+background:transparent !important;
+}
+
+footer p{
+text-align:center !important;
+
+margin:0 auto !important;
+
+width:100% !important;
+
+color:white !important;
+}
