@@ -17,13 +17,18 @@ header{
   border-bottom:1px solid #e6eaf0;
 }
 
-.container{
-  width:90%;
-  margin:auto;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:15px 0;
+.nav-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:30px;
+}
+
+.nav-links{
+display:flex;
+align-items:center;
+gap:28px;
+flex-wrap:wrap;
 }
 
 .logo{
