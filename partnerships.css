@@ -211,18 +211,18 @@ position:relative;
 z-index:2;
 }
 
- id="8np4jl"
+ ```css id="m2k7fd"
 .hero-content h1{
 
-font-size:64px;
+font-family:'Poppins',sans-serif;
 
-font-weight:800;
+font-size:72px;
 
-line-height:1.2;
+font-weight:700;
 
-letter-spacing:-1px;
+line-height:1.1;
 
-color:white;
+color:#ffffff;
 
 margin-bottom:24px;
 }
@@ -636,23 +636,6 @@ font-size:14px;
 font-size:32px;
 }
 
-}
-
-```css id="2x9u4v"
-.partnerships-hero .hero-content h1{
-font-family:'Poppins',sans-serif !important;
-
-font-size:64px !important;
-
-font-weight:800 !important;
-
-line-height:1.2 !important;
-
-letter-spacing:-1px !important;
-
-color:white !important;
-}
-
 .partnerships-hero .hero-content p{
 font-family:'Poppins',sans-serif !important;
 
@@ -664,31 +647,3 @@ line-height:2 !important;
 
 color:#dce6f5 !important;
 }
-```css id="p9jv4e"
-.hero-content h1{
-
-font-family:'Poppins',sans-serif;
-
-font-size:64px;
-
-font-weight:700;
-
-line-height:1.2;
-
-color:white;
-
-margin-bottom:24px;
-}
-
-```css id="h8x4tm"
-.hero-content h1{
-
-color:white !important;
-
-font-size:72px !important;
-
-font-weight:700 !important;
-
-line-height:1.1 !important;
-}
-```
