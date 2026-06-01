@@ -82,9 +82,26 @@ position:relative;
 }
 
 .dropbtn{
-font-size:15px;
-font-weight:800 !important;
+background:transparent;
+border:none;
+outline:none;
+
 font-family:'Poppins',sans-serif;
+font-size:15px;
+font-weight:800;
+
+color:#0b1f3a;
+
+cursor:pointer;
+
+display:flex;
+align-items:center;
+gap:8px;
+
+padding:0;
+margin:0;
+
+box-shadow:none;
 }
 
 .dropbtn:hover{
