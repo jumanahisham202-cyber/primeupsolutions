@@ -765,3 +765,37 @@ outline:none;
 border:none;
 box-shadow:none;
 }
+/* FIX SOLUTIONS BUTTON */
+
+.dropbtn{
+background:transparent !important;
+border:none !important;
+box-shadow:none !important;
+
+padding:0 !important;
+margin:0 !important;
+
+color:#0b1f3a !important;
+
+font-family:'Poppins',sans-serif !important;
+font-size:15px !important;
+font-weight:800 !important;
+
+display:flex;
+align-items:center;
+gap:8px;
+
+cursor:pointer;
+}
+
+.dropbtn:hover{
+color:#1f6ed4 !important;
+}
+
+.dropbtn:focus,
+.dropbtn:active{
+background:transparent !important;
+outline:none !important;
+box-shadow:none !important;
+border:none !important;
+}
