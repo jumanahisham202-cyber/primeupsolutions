@@ -54,8 +54,21 @@ nav a{
 text-decoration:none;
 color:#0b1f3a;
 font-size:15px;
-font-weight:700;
+font-weight:800;
 transition:.3s;
+}
+
+.dropbtn{
+background:none;
+border:none;
+font-size:15px;
+font-weight:800;
+cursor:pointer;
+color:#0b1f3a;
+font-family:'Poppins',sans-serif;
+display:flex;
+align-items:center;
+gap:8px;
 }
 
 nav a:hover{
