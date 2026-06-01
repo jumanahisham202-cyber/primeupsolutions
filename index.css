@@ -752,11 +752,16 @@ font-weight:500;
 text-align:center;
 }
 
-.nav-links a,
-.nav-links .dropbtn{
+.nav-links a{
 font-family:'Poppins',sans-serif !important;
 font-weight:800 !important;
 font-size:15px !important;
 color:#0b1f3a !important;
 }
 
+.dropbtn:focus,
+.dropbtn:active{
+outline:none;
+border:none;
+box-shadow:none;
+}
