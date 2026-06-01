@@ -799,3 +799,10 @@ outline:none !important;
 box-shadow:none !important;
 border:none !important;
 }
+.nav-links a.active{
+color:#1f6ed4 !important;
+font-weight:800 !important;
+}
+.nav-links a:hover{
+color:#1f6ed4 !important;
+}
