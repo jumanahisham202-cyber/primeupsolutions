@@ -619,3 +619,9 @@ font-weight:500;
 
 margin:0;
 }
+
+nav a,
+.dropbtn{
+font-weight:800 !important;
+font-family:'Poppins',sans-serif !important;
+}
