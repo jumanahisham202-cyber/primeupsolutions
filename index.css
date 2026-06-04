@@ -517,13 +517,46 @@ font-size:17px;
 font-weight:500;
 
 text-decoration:none !important;
-
 color:#16324f !important;
+
+overflow:hidden;
+}
+
+.info-item i{
+width:72px;
+height:72px;
+
+min-width:72px;
+flex-shrink:0;
+
+border-radius:22px;
+
+background:linear-gradient(
+135deg,
+#16324f,
+#3d84da
+);
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+color:white;
+font-size:28px;
+
+box-shadow:
+0 8px 22px rgba(31,110,212,0.22);
 }
 
 .info-item span{
-text-decoration:none !important;
-color:#16324f !important;
+display:block;
+flex:1;
+min-width:0;
+
+word-break:break-word;
+overflow-wrap:anywhere;
+
+color:#16324f;
 }
 
 .info-item:hover{
@@ -724,6 +757,17 @@ width:85px;
 height:85px;
 font-size:32px;
 margin-bottom:25px;
+}
+
+}
+
+.info-item{
+align-items:center;
+}
+
+.info-item span{
+font-size:15px;
+line-height:1.6;
 }
 
 }
