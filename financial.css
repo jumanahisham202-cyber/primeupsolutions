@@ -730,3 +730,24 @@ color:#1f6ed4 !important;
 .dropbtn.active i{
 color:#1f6ed4 !important;
 }
+
+@media (max-width: 900px){
+
+.navbar{
+padding:15px 20px;
+}
+
+nav.nav-links{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.logo-img{
+width:150px;
+margin:auto;
+display:block;
+}
+
+}
