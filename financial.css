@@ -734,20 +734,30 @@ color:#1f6ed4 !important;
 @media (max-width: 900px){
 
 .navbar{
+flex-direction:column;
 padding:15px 20px;
-}
-
-nav.nav-links{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:15px;
+gap:20px;
 }
 
 .logo-img{
 width:150px;
-margin:auto;
-display:block;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+gap:15px;
+}
+
+.dropdown-content{
+left:50%;
+transform:translateX(-50%);
+}
+
+.page-hero h1{
+font-size:40px;
 }
 
 }
