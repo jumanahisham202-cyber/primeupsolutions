@@ -731,13 +731,7 @@ color:#1f6ed4 !important;
 color:#1f6ed4 !important;
 }
 
-/* ================= MOBILE NAVBAR ================= */
-
 @media(max-width:900px){
-
-.navbar{
-padding:15px 20px;
-}
 
 .container{
 flex-direction:column;
@@ -748,38 +742,18 @@ nav{
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
-align-items:center;
-gap:14px;
+gap:18px;
 }
 
-/* ALL NAV LINKS BOLD */
-
-nav a{
-font-size:14px;
-font-weight:800 !important;
-color:#0b1f3a;
-}
-
-/* SOLUTIONS BUTTON BOLD */
-
+nav a,
 .dropbtn{
-font-size:14px;
+font-size:15px;
 font-weight:800 !important;
-color:#0b1f3a;
-}
-
-/* ACTIVE SOLUTIONS */
-
-.dropbtn.active{
-color:#1f6ed4 !important;
-}
-
-.dropbtn.active i{
-color:#1f6ed4 !important;
+white-space:nowrap;
 }
 
 .logo-img{
-width:140px;
+width:150px;
 }
 
 }
