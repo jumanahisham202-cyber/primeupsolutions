@@ -763,10 +763,10 @@ width:140px;
 
 @media(max-width:900px){
 
-nav a,
-.dropbtn{
-font-size:14px;
+nav a{
 font-weight:800 !important;
 }
 
+.dropbtn{
+font-weight:800 !important;
 }
