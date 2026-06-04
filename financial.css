@@ -760,3 +760,13 @@ width:140px;
 }
 
 }
+
+@media(max-width:900px){
+
+nav a,
+.dropbtn{
+font-size:14px;
+font-weight:800 !important;
+}
+
+}
