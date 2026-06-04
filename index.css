@@ -553,8 +553,9 @@ display:block;
 flex:1;
 min-width:0;
 
-word-break:break-word;
-overflow-wrap:anywhere;
+word-break: break-word;
+overflow-wrap: break-word;
+}
 
 color:#16324f;
 }
@@ -768,8 +769,6 @@ align-items:center;
 .info-item span{
 font-size:15px;
 line-height:1.6;
-}
-
 }
 
 /* ================= FOOTER ================= */
