@@ -11,6 +11,10 @@ body{
 }
 
 .navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
 background:white;
 padding:14px 8%;
 position:sticky;
@@ -733,7 +737,20 @@ align-items:center;
 gap:8px;
 }
 
+/* ================= MOBILE ================= */
+
 @media(max-width:900px){
+
+.navbar{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:15px;
+}
+
+.logo-img{
+width:150px;
+}
 
 nav{
 display:flex;
@@ -749,33 +766,4 @@ font-size:15px;
 font-weight:800 !important;
 }
 
-.logo-img{
-width:150px;
-}
-
-/* =========================
-MOBILE
-========================= */
-
-@media(max-width:900px){
-
-.logo-img{
-width:190px;
-}
-
-nav{
-flex-wrap:wrap;
-justify-content:center;
-gap:18px;
-}
-.navbar{
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-nav{
-display:flex;
-align-items:center;
-gap:25px;
 }
