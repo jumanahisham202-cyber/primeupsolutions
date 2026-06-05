@@ -19,12 +19,6 @@ z-index:999;
 box-shadow:0 4px 20px rgba(0,0,0,0.05);
 }
 
-.nav-container{
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
 .logo-img{
 width:220px;
 display:block;
@@ -741,12 +735,6 @@ gap:8px;
 
 @media(max-width:900px){
 
-.container{
-flex-direction:column;
-align-items:center;
-gap:18px;
-}
-
 nav{
 display:flex;
 flex-wrap:wrap;
@@ -770,11 +758,6 @@ MOBILE
 ========================= */
 
 @media(max-width:900px){
-
-.nav-container{
-flex-direction:column;
-gap:20px;
-}
 
 .logo-img{
 width:190px;
