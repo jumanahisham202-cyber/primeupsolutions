@@ -785,3 +785,14 @@ flex-wrap:wrap;
 justify-content:center;
 gap:18px;
 }
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav{
+display:flex;
+align-items:center;
+gap:25px;
+}
