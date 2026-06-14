@@ -625,3 +625,16 @@ font-family:'Poppins',sans-serif !important;
 nav a.active{
 color:#1f6ed4;
 }
+
+.info-item{
+display:flex;
+align-items:center;
+gap:12px;
+flex-wrap:wrap;
+}
+
+.info-item i{
+font-size:18px;
+min-width:22px;
+color:#1f6ed4;
+}
