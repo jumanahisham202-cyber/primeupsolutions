@@ -568,20 +568,13 @@ font-size:22px;
 font-size:15px;
 }
 
-.cta-section h2{
-font-size:34px;
-}
-
 .btn{
 width:100%;
 max-width:300px;
 }
-
-.bottom-image{
-padding:60px 20px 90px;
+  
 }
 
-}
 /* ACTIVE PAGE */
 
 .nav-links a.active{
@@ -591,6 +584,57 @@ color:#1f6ed4;
 .nav-links a:hover{
 color:#1f6ed4;
 }
+
+/* =========================
+CONTACT SECTION
+========================= */
+
+.cta{
+background:linear-gradient(135deg,#1f3b73,#0b1f3a);
+color:white;
+text-align:center;
+padding:100px 20px;
+}
+
+.cta h2{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.cta p{
+max-width:700px;
+margin:auto;
+color:#d6d6d6;
+}
+
+.contact-icons{
+display:flex;
+justify-content:center;
+gap:18px;
+margin-top:35px;
+flex-wrap:wrap;
+}
+
+.contact-icons a{
+width:55px;
+height:55px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+background:rgba(255,255,255,.12);
+color:white;
+font-size:20px;
+text-decoration:none;
+transition:.3s;
+}
+
+.contact-icons a:hover{
+background:white;
+color:#0b1f3a;
+transform:translateY(-5px);
+}
+
 /* ================= FOOTER ================= */
 
 .footer{
