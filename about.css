@@ -629,8 +629,6 @@ bottom:-14px;
 transform:translateX(-50%);
 }
 
-}
-
 .about-title{
 
 font-size:68px;
@@ -767,23 +765,3 @@ color:#16324f;
 position:relative;
 }
 
-.about-title::after{
-content:"";
-position:absolute;
-
-left:50%;
-transform:translateX(-50%);
-
-bottom:-18px;
-
-width:120px;
-height:6px;
-
-border-radius:30px;
-
-background:linear-gradient(
-90deg,
-#1f6ed4,
-#6daee6
-);
-}
