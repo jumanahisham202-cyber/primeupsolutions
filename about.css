@@ -628,6 +628,9 @@ bottom:-14px;
 
 transform:translateX(-50%);
 }
+
+}
+
 .about-title{
 
 font-size:68px;
@@ -735,4 +738,6 @@ font-size:14px;
 font-weight:500;
 
 margin:0;
+}
+
 }
