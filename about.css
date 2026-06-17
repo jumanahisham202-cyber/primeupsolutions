@@ -748,3 +748,10 @@ color:#16324f;
 font-family:"Font Awesome 6 Brands" !important;
 font-weight:400 !important;
 }
+
+.fa-brands,
+.fa-solid,
+.fas,
+.fab{
+font-family:"Font Awesome 6 Free","Font Awesome 6 Brands" !important;
+}
