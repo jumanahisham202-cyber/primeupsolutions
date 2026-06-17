@@ -740,4 +740,7 @@ font-weight:500;
 margin:0;
 }
 
+.info-item a{
+text-decoration:none;
+color:#16324f;
 }
